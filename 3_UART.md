@@ -11,7 +11,7 @@ Que rellena una cadena de caracteres con los datos que queremos transmitir (en e
 Con respecto a la recepción del paquete de datos se ha creado un pequeño programa de Matlab que lee constantemente por UART y grafica los datos que va recibiendo además de los datos con los que se inicia la pila circular.
 Como leyenda pone la matrícula y dispone la cita en un gráfico de barras en una disposición lineal a lo largo de las 24 horas del día.
 Se dispone a continuación el código del archivo de Matlab ya que es muy autoexplicativo:
-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+---------------------------- ----------------------------------------------- ---------------------------------------------------------------------------------------------------------------
 <h2>Handling UART Communications</h2>
 This section is subdivided into two parts; one related to sending data by the microcontroller and another with receiving data by the MATLAB file.
 
