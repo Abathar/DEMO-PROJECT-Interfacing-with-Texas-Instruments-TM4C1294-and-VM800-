@@ -20,7 +20,7 @@ Después de llamar a rankstack(), la función de manejo del Timer 0 mira si la e
 Como apunte, cabe a destacar que la ventana visible que muestra la pantalla VM800 son las siete primeras estructuras empezando por la que está en la posición bot.
 
 Una función también relevante para el manejo de la pila es pushstack(), una función vacía que añade una estructura a la parte superior de la pila para que más tarde sea ordenada por la función rankstack(). Pushstack() pone la estructura que se quiera añadir a la pila en la estructura número num variable que indica dónde está la cima de la pila.
-
+----------------------- --------------------------------- -----------
 <h2>Circular Buffer Handling</h2>
 
 The creation of the circular buffer arises as a response to the need to store relevant vehicle data such as license plate, appointment time, whether the appointment is confirmed or not, and whether the journey will be uphill or downhill. For this purpose, a structure of two hundred components has been created to accommodate two hundred possible transits throughout the day, although we will see that they are more than necessary.
